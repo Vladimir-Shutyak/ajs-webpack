@@ -1,0 +1,25 @@
+{
+  "name": "lesson2",
+  "version": "1.0.0",
+  "description": "Lesson2",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "webpack-dev-server": "3.11.2"
+  },
+  "devDependencies": {
+    "babel-loader": "8.2.2",
+    "css-loader": "6.2.0",
+    "html-webpack-plugin": "5.3.2",
+    "mini-css-extract-plugin": "2.1.0",
+    "webpack": "5.47.0",
+    "webpack-cli": "4.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development",
+    "lint": "eslint .",
+    "build": "webpack --mode production"
+  },
+  "author": "Vladimir Shutyak",
+  "license": "ISC"
+}
